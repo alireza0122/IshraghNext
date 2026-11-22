@@ -2,12 +2,14 @@
 import React from 'react';
 import Titlesection from "@/src/app/viwes/shared/titlesection";
 import Image from "next/image";
-import { Swiper, SwiperSlide } from 'swiper/react';
+import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faAngleLeft} from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
+
 interface DataType {
     img: string,
     title: string,
@@ -78,7 +80,7 @@ const newsdata: DataType[] = [
 
 function HomeNews() {
     return (
-        <div className={'grid grid-cols-12 px-60      '}>
+        <div className={'grid grid-cols-12 lg:px-60 px-6      '}>
             <div className="col-span-12">
                 <div className="flex justify-between  px-3">
                     <div className="">
@@ -123,7 +125,8 @@ function HomeNews() {
                     >
                         {newsdata.map((item, index) => (
                             <SwiperSlide key={index}>
-                                <div className=" border-1  cursor-pointer border-[#D3D3D3] rounded overflow-hidden  rounded-[20px]">
+                                <div
+                                    className=" border-1  cursor-pointer border-[#D3D3D3] rounded overflow-hidden  rounded-[20px]">
                                     <Image
                                         src={item.img}
                                         alt={item.title}
@@ -143,7 +146,10 @@ function HomeNews() {
                 </div>
 
             </div>
+
         </div>
+
+
     );
 }
 

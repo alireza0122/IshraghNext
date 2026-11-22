@@ -54,7 +54,7 @@ function HomePillars() {
     }, []);
 
     return (
-        <div className={'grid grid-cols-12 px-60 my-10 items-center '}>
+        <div className={'grid grid-cols-12 px-60 my-10 items-center  overflow-hidden'}>
             <div className="col-span-12 my-10">
                 <div className="flex justify-center">
                     <TitleSection title="ارکان 4 گانه اشراق"/>

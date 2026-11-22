@@ -4,7 +4,7 @@ import HomeEscapeFanos from "@/src/app/home/home-escape/home-escape-fanos/home-e
 
 function HomeEscape() {
     return (
-        <div className={'mt-20 mb-250'}>
+        <div className={'mt-20 mb-250 '}>
             <div className="flex justify-center">
                 <Titlesection title={'گریزی به ارکان اشراق'}/>
             </div>
