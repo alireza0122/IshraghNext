@@ -4,44 +4,45 @@ function HomeAmar() {
 
 
     return (
-        <div className={'grid grid-cols-12 lg:flex justify-center gap-20 lg:items-center lg:gap-50   mt-20   px-60   '}>
+        <div
+            className={'grid grid-cols-12 lg:flex  lg:justify-center  lg:gap-20 lg:items-center lg:gap-50    xl:px-50  px-6 md:px-8      mt-20'}>
 
-            <div className="col-span-6">
-                <div className="flex justify-center">
-                    <div className="grid grid-cols-12 gap-10">
-                        <div className="lg:col-span-6">
-                            <div className=" shadow-[10px_20px_20px_rgba(193,193,193,0.2)] p-5 w-full h-[112px] rounded-[20px]">
-                                <div className="flex gap-2 items-center justify-around">
-                                    <div className="">
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="reporting-svg" width="32"
-                                             height="32" viewBox="0 0 32 32" fill="none">
-                                            <path
-                                                d="M26.5333 4.1214C26.3694 3.41694 26.0639 2.75318 25.6354 2.1705C25.2069 1.58781 24.6643 1.09837 24.0407 0.731947C23.4171 0.365521 22.7255 0.129766 22.0079 0.0390174C21.2904 -0.051731 20.5618 0.00442423 19.8667 0.204068L17.568 0.861401C16.9857 1.02876 16.4494 1.32703 16 1.7334C15.5506 1.32703 15.0143 1.02876 14.432 0.861401L12.1333 0.204068C11.4386 0.00546477 10.7107 -0.0498899 9.99391 0.0413639C9.27712 0.132618 8.58634 0.368577 7.96351 0.734919C7.34068 1.10126 6.79878 1.59035 6.37072 2.17249C5.94266 2.75463 5.63735 3.41768 5.47333 4.1214C3.93973 4.40042 2.55238 5.20801 1.55244 6.4038C0.552503 7.59959 0.00319465 9.10796 0 10.6667L0 20.0001C0.00211714 21.7675 0.705176 23.462 1.95496 24.7118C3.20474 25.9616 4.89921 26.6646 6.66667 26.6667H14.6667V29.3334H10.6667C10.313 29.3334 9.9739 29.4739 9.72386 29.7239C9.47381 29.974 9.33333 30.3131 9.33333 30.6667C9.33333 31.0204 9.47381 31.3595 9.72386 31.6095C9.9739 31.8596 10.313 32.0001 10.6667 32.0001H21.3333C21.687 32.0001 22.0261 31.8596 22.2761 31.6095C22.5262 31.3595 22.6667 31.0204 22.6667 30.6667C22.6667 30.3131 22.5262 29.974 22.2761 29.7239C22.0261 29.4739 21.687 29.3334 21.3333 29.3334H17.3333V26.6667H25.3333C27.1008 26.6646 28.7953 25.9616 30.045 24.7118C31.2948 23.462 31.9979 21.7675 32 20.0001V10.6667C31.9971 9.10892 31.4487 7.6013 30.4501 6.40565C29.4515 5.20999 28.0657 4.40181 26.5333 4.1214ZM17.3333 4.70807C17.3335 4.41849 17.4279 4.13682 17.6023 3.90565C17.7767 3.67448 18.0216 3.50637 18.3 3.42673L20.6 2.7694C20.9969 2.65587 21.4148 2.63605 21.8206 2.71149C22.2265 2.78693 22.6093 2.95557 22.9389 3.20413C23.2685 3.4527 23.5359 3.7744 23.7201 4.14389C23.9042 4.51338 24 4.92057 24 5.3334V10.5841C23.9981 11.1627 23.8087 11.7251 23.4601 12.1869C23.1115 12.6487 22.6226 12.985 22.0667 13.1454L17.3333 14.4974V4.70807ZM9.06667 3.20007C9.39564 2.95241 9.77766 2.78459 10.1826 2.70985C10.5875 2.63511 11.0043 2.65549 11.4 2.7694L13.7 3.42673C13.9784 3.50637 14.2233 3.67448 14.3977 3.90565C14.5721 4.13682 14.6665 4.41849 14.6667 4.70807V14.4974L9.93333 13.1454C9.37739 12.985 8.88845 12.6487 8.53986 12.1869C8.19128 11.7251 8.00185 11.1627 8 10.5841V5.3334C7.99864 4.91918 8.09443 4.51041 8.27968 4.13991C8.46493 3.76941 8.73447 3.44752 9.06667 3.20007ZM29.3333 20.0001C29.3333 21.0609 28.9119 22.0784 28.1618 22.8285C27.4116 23.5786 26.3942 24.0001 25.3333 24.0001H6.66667C5.6058 24.0001 4.58838 23.5786 3.83824 22.8285C3.08809 22.0784 2.66667 21.0609 2.66667 20.0001V10.6667C2.67008 9.84239 2.92811 9.03923 3.40545 8.36714C3.88279 7.69504 4.55612 7.18685 5.33333 6.91207V10.5841C5.3366 11.7419 5.71522 12.8674 6.4124 13.7917C7.10957 14.7161 8.08769 15.3894 9.2 15.7107L13.8013 17.0267C15.2394 17.4366 16.7633 17.4366 18.2013 17.0267L22.8027 15.7107C23.9145 15.3889 24.892 14.7154 25.5887 13.7911C26.2853 12.8668 26.6636 11.7415 26.6667 10.5841V6.91207C27.4439 7.18685 28.1172 7.69504 28.5945 8.36714C29.0719 9.03923 29.3299 9.84239 29.3333 10.6667V20.0001Z"
-                                                fill="url(#paint0_linear_51_980)"></path>
-                                            <defs>
-                                                <linearGradient id="paint0_linear_51_980" x1="32" y1="-0.00312403"
-                                                                x2="-3.29977" y2="4.18449" gradientUnits="userSpaceOnUse">
-                                                    <stop stopColor="#27BDBC"></stop>
-                                                    <stop offset="1" stopColor="#F9D325"></stop>
-                                                </linearGradient>
-                                            </defs>
-                                        </svg>
-                                    </div>
-                                    <div className="">
-                                        <h1 className={'text-[#18A1A1] text-[30px] font-[700]'}>
-                                            34768 +
-                                        </h1>
-                                        <p className={'text-[16px] text-[#373F47]'}>
-                                            ساعت آموزش
-                                        </p>
-                                    </div>
+            <div className="lg:col-span-6 col-span-12 order-1 lg:order-0 ">
+                <div className="lg:flex lg:justify-center">
+                    <div className="grid grid-cols-12 gap-2 gap-3 md:gap-8 lg:gap-10">
+                        <div className="lg:col-span-6 col-span-6">
+                            <div
+                                className="flex flex-col md:flex-row  gap-2 items-center justify-center md:justify-around shadow-[10px_20px_20px_rgba(193,193,193,0.2)] p-5 w-full h-[150px] items-center md:h-[112px] rounded-[20px]">
+                                <div className="">
+                                    <svg  xmlns="http://www.w3.org/2000/svg" className="reporting-svg" width="32"
+                                         height="32" viewBox="0 0 32 32" fill="none">
+                                        <path
+                                            d="M26.5333 4.1214C26.3694 3.41694 26.0639 2.75318 25.6354 2.1705C25.2069 1.58781 24.6643 1.09837 24.0407 0.731947C23.4171 0.365521 22.7255 0.129766 22.0079 0.0390174C21.2904 -0.051731 20.5618 0.00442423 19.8667 0.204068L17.568 0.861401C16.9857 1.02876 16.4494 1.32703 16 1.7334C15.5506 1.32703 15.0143 1.02876 14.432 0.861401L12.1333 0.204068C11.4386 0.00546477 10.7107 -0.0498899 9.99391 0.0413639C9.27712 0.132618 8.58634 0.368577 7.96351 0.734919C7.34068 1.10126 6.79878 1.59035 6.37072 2.17249C5.94266 2.75463 5.63735 3.41768 5.47333 4.1214C3.93973 4.40042 2.55238 5.20801 1.55244 6.4038C0.552503 7.59959 0.00319465 9.10796 0 10.6667L0 20.0001C0.00211714 21.7675 0.705176 23.462 1.95496 24.7118C3.20474 25.9616 4.89921 26.6646 6.66667 26.6667H14.6667V29.3334H10.6667C10.313 29.3334 9.9739 29.4739 9.72386 29.7239C9.47381 29.974 9.33333 30.3131 9.33333 30.6667C9.33333 31.0204 9.47381 31.3595 9.72386 31.6095C9.9739 31.8596 10.313 32.0001 10.6667 32.0001H21.3333C21.687 32.0001 22.0261 31.8596 22.2761 31.6095C22.5262 31.3595 22.6667 31.0204 22.6667 30.6667C22.6667 30.3131 22.5262 29.974 22.2761 29.7239C22.0261 29.4739 21.687 29.3334 21.3333 29.3334H17.3333V26.6667H25.3333C27.1008 26.6646 28.7953 25.9616 30.045 24.7118C31.2948 23.462 31.9979 21.7675 32 20.0001V10.6667C31.9971 9.10892 31.4487 7.6013 30.4501 6.40565C29.4515 5.20999 28.0657 4.40181 26.5333 4.1214ZM17.3333 4.70807C17.3335 4.41849 17.4279 4.13682 17.6023 3.90565C17.7767 3.67448 18.0216 3.50637 18.3 3.42673L20.6 2.7694C20.9969 2.65587 21.4148 2.63605 21.8206 2.71149C22.2265 2.78693 22.6093 2.95557 22.9389 3.20413C23.2685 3.4527 23.5359 3.7744 23.7201 4.14389C23.9042 4.51338 24 4.92057 24 5.3334V10.5841C23.9981 11.1627 23.8087 11.7251 23.4601 12.1869C23.1115 12.6487 22.6226 12.985 22.0667 13.1454L17.3333 14.4974V4.70807ZM9.06667 3.20007C9.39564 2.95241 9.77766 2.78459 10.1826 2.70985C10.5875 2.63511 11.0043 2.65549 11.4 2.7694L13.7 3.42673C13.9784 3.50637 14.2233 3.67448 14.3977 3.90565C14.5721 4.13682 14.6665 4.41849 14.6667 4.70807V14.4974L9.93333 13.1454C9.37739 12.985 8.88845 12.6487 8.53986 12.1869C8.19128 11.7251 8.00185 11.1627 8 10.5841V5.3334C7.99864 4.91918 8.09443 4.51041 8.27968 4.13991C8.46493 3.76941 8.73447 3.44752 9.06667 3.20007ZM29.3333 20.0001C29.3333 21.0609 28.9119 22.0784 28.1618 22.8285C27.4116 23.5786 26.3942 24.0001 25.3333 24.0001H6.66667C5.6058 24.0001 4.58838 23.5786 3.83824 22.8285C3.08809 22.0784 2.66667 21.0609 2.66667 20.0001V10.6667C2.67008 9.84239 2.92811 9.03923 3.40545 8.36714C3.88279 7.69504 4.55612 7.18685 5.33333 6.91207V10.5841C5.3366 11.7419 5.71522 12.8674 6.4124 13.7917C7.10957 14.7161 8.08769 15.3894 9.2 15.7107L13.8013 17.0267C15.2394 17.4366 16.7633 17.4366 18.2013 17.0267L22.8027 15.7107C23.9145 15.3889 24.892 14.7154 25.5887 13.7911C26.2853 12.8668 26.6636 11.7415 26.6667 10.5841V6.91207C27.4439 7.18685 28.1172 7.69504 28.5945 8.36714C29.0719 9.03923 29.3299 9.84239 29.3333 10.6667V20.0001Z"
+                                            fill="url(#paint0_linear_51_980)"></path>
+                                        <defs>
+                                            <linearGradient id="paint0_linear_51_980" x1="32" y1="-0.00312403"
+                                                            x2="-3.29977" y2="4.18449" gradientUnits="userSpaceOnUse">
+                                                <stop stopColor="#27BDBC"></stop>
+                                                <stop offset="1" stopColor="#F9D325"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div className="">
+                                    <h1 className={'text-[#18A1A1] text-[22px] md:text-[24px] lg:text-[30px] font-[700]'}>
+                                        34768 +
+                                    </h1>
+                                    <p className={'lg:text-[16px] text-[14px] text-[#373F47]'}>
+                                        ساعت آموزش
+                                    </p>
 
                                 </div>
                             </div>
                         </div>
-                        <div className="lg:col-span-6">
-                            <div className=" shadow-[10px_20px_20px_rgba(193,193,193,0.2)] p-5 w-full h-[112px] rounded-[20px]">
-                                <div className="flex gap-2 items-center justify-around ">
+                        <div className="lg:col-span-6 col-span-6">
+                            <div
+                                className=" shadow-[10px_20px_20px_rgba(193,193,193,0.2)] p-5 w-full h-[150px] items-center md:h-[112px] rounded-[20px]">
+                                <div className="flex flex-col md:flex-row text-center gap-2 items-center justify-center md:justify-around ">
                                     <div className="">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="reporting-svg" width="32"
                                              height="32" viewBox="0 0 32 32" fill="none">
@@ -52,7 +53,8 @@ function HomeAmar() {
                                             </g>
                                             <defs>
                                                 <linearGradient id="paint0_linear_51_984" x1="28.0003" y1="-0.00310877"
-                                                                x2="1.35569" y2="2.36827" gradientUnits="userSpaceOnUse">
+                                                                x2="1.35569" y2="2.36827"
+                                                                gradientUnits="userSpaceOnUse">
                                                     <stop stopColor="#27BDBC"></stop>
                                                     <stop offset="1" stopColor="#F9D325"></stop>
                                                 </linearGradient>
@@ -63,19 +65,20 @@ function HomeAmar() {
                                         </svg>
                                     </div>
                                     <div className="">
-                                        <h1 className={'text-[#18A1A1] text-[30px] font-[700]'}>
+                                        <h1 className={'text-[#18A1A1] text-[22px] md:text-[24px] lg:text-[30px] font-[700]'}>
                                             -
                                         </h1>
-                                        <p className={'text-[16px] text-[#373F47]'}>
+                                        <p className={'lg:text-[16px] text-[14px] text-[#373F47]'}>
                                             رویداد ایده‌پردازی
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="lg:col-span-6">
-                            <div className=" shadow-[10px_20px_20px_rgba(193,193,193,0.2)] p-5 w-full h-[112px] rounded-[20px]">
-                                <div className="flex gap-2 items-center justify-around ">
+                        <div className="lg:col-span-6 col-span-6">
+                            <div
+                                className=" shadow-[10px_20px_20px_rgba(193,193,193,0.2)] p-5 w-full h-[150px] items-center md:h-[112px] rounded-[20px]">
+                                <div className="flex flex-col md:flex-row text-center gap-2 items-center justify-center md:justify-around ">
                                     <div className="">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="reporting-svg" width="32"
                                              height="32" viewBox="0 0 32 32" fill="none">
@@ -86,7 +89,8 @@ function HomeAmar() {
                                             </g>
                                             <defs>
                                                 <linearGradient id="paint0_linear_51_991" x1="32" y1="4.01913e-06"
-                                                                x2="-3.29967" y2="4.18803" gradientUnits="userSpaceOnUse">
+                                                                x2="-3.29967" y2="4.18803"
+                                                                gradientUnits="userSpaceOnUse">
                                                     <stop stopColor="#27BDBC"></stop>
                                                     <stop offset="1" stopColor="#F9D325"></stop>
                                                 </linearGradient>
@@ -97,19 +101,20 @@ function HomeAmar() {
                                         </svg>
                                     </div>
                                     <div className="">
-                                        <h1 className={'text-[#18A1A1] text-[30px] font-[700]'}>
+                                        <h1 className={'text-[#18A1A1] text-[22px] md:text-[24px] lg:text-[30px] font-[700]'}>
                                             151 +
                                         </h1>
-                                        <p className={'text-[16px] text-[#373F47]'}>
+                                        <p className={'lg:text-[16px] text-[14px] text-[#373F47]'}>
                                             تیم پذیرفته‌شده
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="lg:col-span-6">
-                            <div className=" shadow-[10px_20px_20px_rgba(193,193,193,0.2)] p-5 w-full h-[112px] rounded-[20px]">
-                                <div className="flex gap-2 items-center justify-around ">
+                        <div className="lg:col-span-6 col-span-6">
+                            <div
+                                className=" shadow-[10px_20px_20px_rgba(193,193,193,0.2)] p-5 w-full h-[150px] items-center md:h-[112px] rounded-[20px]">
+                                <div className="flex flex-col md:flex-row text-center gap-2 items-center justify-center md:justify-around ">
                                     <div className="">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="reporting-svg" width="32"
                                              height="32" viewBox="0 0 32 32" fill="none">
@@ -120,7 +125,8 @@ function HomeAmar() {
                                             </g>
                                             <defs>
                                                 <linearGradient id="paint0_linear_51_996" x1="32" y1="4.01913e-06"
-                                                                x2="-3.29967" y2="4.18803" gradientUnits="userSpaceOnUse">
+                                                                x2="-3.29967" y2="4.18803"
+                                                                gradientUnits="userSpaceOnUse">
                                                     <stop stopColor="#27BDBC"></stop>
                                                     <stop offset="1" stopColor="#F9D325"></stop>
                                                 </linearGradient>
@@ -131,10 +137,10 @@ function HomeAmar() {
                                         </svg>
                                     </div>
                                     <div className="">
-                                        <h1 className={'text-[#18A1A1] text-[30px] font-[700]'}>
+                                        <h1 className={'text-[#18A1A1] text-[22px] md:text-[24px] lg:text-[30px] font-[700]'}>
                                             12 +
                                         </h1>
-                                        <p className={'text-[16px] text-[#373F47]'}>
+                                        <p className={'lg:text-[16px] text-[14px] text-[#373F47]'}>
                                             شرکت خلاق
                                         </p>
                                     </div>
@@ -144,23 +150,24 @@ function HomeAmar() {
                     </div>
                 </div>
             </div>
-            <div className="col-span-6">
-                <div className="group relative flex cursor-pointer">
+            <div className="lg:col-span-6 col-span-12 order-0 lg:order-1 mb-20 flex justify-center lg:justify-start">
+                <div className="group relative flex cursor-pointer ">
                     <div>
-                        <h3 className="relative z-10 text-[32px] font-bold text-[#18A1A1]">
-                            اشراق<br />
+                        <h3 className="relative z-10 lg:text-[32px] text-[24px] font-bold text-[#18A1A1]">
+                            اشراق<br/>
                             از دریچه آمار
                         </h3>
 
-                        <div className="h-[6px] w-[65px] rounded-full bg-[#F9D325] transition-all duration-300 group-hover:w-full" />
+                        <div
+                            className="h-[6px] w-[65px] rounded-full bg-[#F9D325] transition-all duration-300 group-hover:w-full z-[20]"/>
                     </div>
 
-                    <div className="absolute right-[-70px] top-[-26%] z-0">
+                    <div className="absolute lg:right-[-70px] right-[-25%] lg:top-[-26%] z-[-1]">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 126 131"
                             fill="none"
-                            className="w-[126px]"
+                            className="lg:w-[126px] w-[72px]"
                         >
                             <path
                                 fillRule="evenodd"

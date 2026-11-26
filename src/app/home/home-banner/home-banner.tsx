@@ -6,7 +6,8 @@ import {faArrowLeft} from "@fortawesome/free-solid-svg-icons";
 function HomeBanner() {
     return (
         <div
-            className="bg-[linear-gradient(263.23deg,rgba(39,189,188,0.14)_0%,rgba(249,211,37,0.14)_100%)]       px-6 md:px-8 xl:px-[465px] relative">
+            className="bg-[linear-gradient(263.23deg,rgba(39,189,188,0.14)_0%,rgba(249,211,37,0.14)_100%)]
+    lg:px-[10px]  px-6 md:px-8 xl:px-[clamp(50px,calc(64.84vw-780px),465px)] relative">
 
             <div className="absolute right-0 z-0    top-0 ">
                 <Image width={350} height={350} className="md:w-full w-[60%]  " src="/img/subtract.svg"
@@ -36,8 +37,8 @@ function HomeBanner() {
                         </p>
                     </div>
 
-                    <div className="grid my-[33px] grid-cols-12 lg:flex  gap-5  ">
-                        <div className="col-span-6">
+                    <div className="sm:grid my-[33px] grid-cols-12 lg:flex  gap-5  ">
+                        <div className=" flex justify-center sm:col-span-6 ">
                             <button
                                 className="group relative flex h-[50px] w-auto min-w-[168px] cursor-pointer items-center justify-between
                                              rounded-[15px] border-none bg-[linear-gradient(85.33deg,#27BDBC_0%,#18A2A1_100%)]
@@ -56,7 +57,7 @@ function HomeBanner() {
                                 </span>
                             </button>
                         </div>
-                        <div className="col-span-6">
+                        <div className=" flex justify-center sm:col-span-6 ">
                             <div
                                 className="flex  text-center  mt-3   cursor-pointer   gap-4">
                                 <svg className="bg-[#F9D325] rounded-[15px]  w-[48px] p-[15px] h-[48px]"
@@ -76,7 +77,7 @@ function HomeBanner() {
 
 
                     </div>
-                    <div className="my-[33px]">
+                    <div className="my-[33px] flex justify-center lg:justify-start">
                         <a
                             href="https://creativehousenet.ir/web/"
                             target="_blank"
@@ -96,17 +97,16 @@ function HomeBanner() {
                                 </defs>
                             </svg>
 
-                            <div className="mr-[14px] leading-[24px] font-bold">
-                <span className="block text-[16px] text-[#373F47]">
-                    آشنایی با
-                </span>
+                            <div className="mr-[14px] leading-[24px] font-bold  " >
+                                <span className="block text-[16px] text-[#373F47]">
+                                    آشنایی با
+                                </span>
                                 <span className="block text-[16px] text-[#01A740]">
-                    خانه‌های خلاق و نوآوری ایران
-                </span>
+                                    خانه‌های خلاق و نوآوری ایران
+                                </span>
                             </div>
                         </a>
                     </div>
-
                 </div>
 
                 <div className="col-span-12 md:col-span-5 order-0 md:order-1">

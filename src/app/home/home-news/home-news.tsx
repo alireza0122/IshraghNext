@@ -80,13 +80,13 @@ const newsdata: DataType[] = [
 
 function HomeNews() {
     return (
-        <div className={'grid grid-cols-12 lg:px-60 px-6      '}>
+        <div className={'grid grid-cols-12 xl:px-[288px] px-4 sm:px-6   lg:mt-10 mt-5    '}>
             <div className="col-span-12">
                 <div className="flex justify-between  px-3">
-                    <div className="">
+                    <div className="flex justify-center w-full lg:w-fit sm:justify-start">
                         <Titlesection title={'جدیدترین اخبار'}/>
                     </div>
-                    <div className="group flex gap-1 justify-center cursor-pointer items-center">
+                    <div className="group lg:flex gap-1 justify-center cursor-pointer items-center hidden ">
                         <p className="text-[#373F47] text-[16px] font-[700]">
                             آرشیو اخبار
                         </p>
@@ -107,19 +107,25 @@ function HomeNews() {
                     <Swiper
                         dir="rtl"
                         key="rtl-swiper"
-                        // modules={[Navigation, Pagination, Autoplay]}
-
                         navigation
-                        // pagination={{clickable: true}}
-                        // autoplay={{delay: 3000, disableOnInteraction: false}}
                         loop
-                        spaceBetween={25}
-
                         breakpoints={{
-                            0: {slidesPerView: 1},
-                            640: {slidesPerView: 2},
-                            1024: {slidesPerView: 3},
-                            1280: {slidesPerView: 4.2},
+                            0: {
+                                slidesPerView: 1.3,
+                                spaceBetween:30
+                            },
+                            640: {
+                                slidesPerView: 2.5,
+                                spaceBetween: 10
+                            },
+                            1024: {
+                                slidesPerView: 3.5,
+                                spaceBetween: 15
+                            },
+                            1280: {
+                                slidesPerView: 4.5,
+                                spaceBetween: 20
+                            },
                         }}
                         className="pb-10"
                     >
@@ -132,7 +138,7 @@ function HomeNews() {
                                         alt={item.title}
                                         width={300}
                                         height={200}
-                                        className=" object-cover h-[170px] w-full rounded-[20px]"
+                                        className=" object-cover h-[170px] w-full rounded-t-[20px]"
                                     />
                                     <div className="p-3 pt-10">
                                         <p className="text-[16px] leading-8 min-h-[50px] line-clamp-2">
