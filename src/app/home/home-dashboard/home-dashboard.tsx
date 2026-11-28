@@ -40,7 +40,7 @@ const groups: Group[] = [
 
 export default function HomeDashboard() {
     return (
-        <div className="grop  grid grid-cols-12 lg:mt-20 mt-10  xl:px-[250px] lg:px-[clamp(20px,0vw,250px)]  px-6 md:px-8 relative items-center    ">
+        <div className="grop  grid grid-cols-12 lg:mt-20 mt-10 xl:px-[110px]  xxl:px-[250px] lg:px-[clamp(20px,0vw,250px)]  px-6 md:px-8 relative items-center    ">
             <div className="lg:col-span-3 col-span-12 cursor-pointer my-5 lg:my-0">
                 <div className="flex justify-center items-center flex-col gap-4 lg:flex-row ">
                     <div

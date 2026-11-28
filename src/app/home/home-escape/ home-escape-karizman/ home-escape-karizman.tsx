@@ -60,7 +60,7 @@ const karizmanData: DataTypeKarizman[] = [
 function HomeEscapeKarizman() {
     return (
         <div className={'bg-[#fafafa] lg:py-4  '}>
-            <div className="grid grid-cols-12  h-100 ">
+            <div className="grid grid-cols-12  h-100 items-center ">
                 <div className="col-span-12 lg:col-span-4">
 
                     <div className="flex flex-col">

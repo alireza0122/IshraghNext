@@ -80,7 +80,7 @@ const newsdata: DataType[] = [
 
 function HomeNews() {
     return (
-        <div className={'grid grid-cols-12 xl:px-[288px] px-4 sm:px-6   lg:mt-10 mt-5    '}>
+        <div className={'grid grid-cols-12 xl:px-[128px] xxl:px-[288px] px-4 sm:px-6   lg:mt-10 mt-5     '}>
             <div className="col-span-12">
                 <div className="flex justify-between  px-3">
                     <div className="flex justify-center w-full lg:w-fit sm:justify-start">

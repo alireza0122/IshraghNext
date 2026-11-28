@@ -2,6 +2,7 @@ import React from 'react';
 import Titlesection from "@/src/app/viwes/shared/titlesection";
 import HomeEscapeFanos from "@/src/app/home/home-escape/home-escape-fanos/home-escape-fanos";
 import HomeEscapeKarizman from "@/src/app/home/home-escape/ home-escape-karizman/ home-escape-karizman";
+import HomeEscapeDal from "@/src/app/home/home-escape/home-escape-dal/home-escape-dal";
 
 function HomeEscape() {
     return (
@@ -14,6 +15,7 @@ function HomeEscape() {
                 <HomeEscapeFanos/>
 
                 <HomeEscapeKarizman/>
+                <HomeEscapeDal/>
             </div>
 
         </div>

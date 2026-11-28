@@ -82,7 +82,7 @@ function Header() {
     return (
         <>
             <header
-                className="sticky top-0 z-[10001] bg-white border-b-[3px] lg:border-b-[2px] w-full py-[7px]  xl:px-[228px]    px-[21px] border-[#F9D325]">
+                className="sticky top-0 z-[10001] bg-white   border-b-[3px] lg:border-b-[2px] w-full py-[7px] xl:px-[128px]    xxl:px-[228px] lg:px-[100px]    px-[21px] border-[#F9D325]">
                 <ul className="flex lg:grid grid-cols-12 xl:justify-center  justify-between lg:justify-start items-center gap-2">
 
                     <li className="hidden lg:flex  lg:col-span-2">
@@ -94,13 +94,13 @@ function Header() {
                         </Link>
                     </li>
 
-                    <li className="lg:hidden flex items-center gap-2">
+                    <li className="lg:hidden flex items-center gap-2    ">
                         <button
                             type="button"
                             onClick={() => setShow(true)}
                             aria-label="باز کردن منو"
                             aria-expanded={show}
-                            className="cursor-pointer border border-[#F0F0F7] rounded-[15px] w-[40px] h-[40px] p-1 flex items-center justify-center"
+                            className=" cursor-pointer border border-[#F0F0F7] rounded-[15px] w-[40px] h-[40px] p-1 flex items-center justify-center"
                         >
                             <HamburgerIcon/>
                         </button>
@@ -110,7 +110,7 @@ function Header() {
                         </Link>
                     </li>
 
-                    <li className="hidden lg:flex col-span-8">
+                    <li className="hidden lg:flex  col-span-8">
                         <nav aria-label="منوی اصلی">
                             <ul className="flex items-center gap-1 xl:gap-3">
                                 {dataHeader.map((item) => (
