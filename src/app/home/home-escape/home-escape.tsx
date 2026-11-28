@@ -3,6 +3,7 @@ import Titlesection from "@/src/app/viwes/shared/titlesection";
 import HomeEscapeFanos from "@/src/app/home/home-escape/home-escape-fanos/home-escape-fanos";
 import HomeEscapeKarizman from "@/src/app/home/home-escape/ home-escape-karizman/ home-escape-karizman";
 import HomeEscapeDal from "@/src/app/home/home-escape/home-escape-dal/home-escape-dal";
+import HomeEscapeSogh from "@/src/app/home/home-escape/home-escape-sogh/home-escape-sogh";
 
 function HomeEscape() {
     return (
@@ -16,6 +17,7 @@ function HomeEscape() {
 
                 <HomeEscapeKarizman/>
                 <HomeEscapeDal/>
+                <HomeEscapeSogh />
             </div>
 
         </div>

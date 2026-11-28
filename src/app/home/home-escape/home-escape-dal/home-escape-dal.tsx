@@ -116,7 +116,7 @@ function HomeEscapeDal() {
     return (
         <div>
             <div className={'bg-[#fafafa] lg:py-4  '}>
-                <div className="grid grid-cols-12  items-center">
+                <div className="grid grid-cols-12  items-center ">
                     <div className="col-span-12 lg:col-span-4">
 
                         <div className="flex flex-col items-center justify-center gap-2">
@@ -222,8 +222,11 @@ function HomeEscapeDal() {
 
                                         تیم های پذیرفته شده
                                     </h1>
+
                                 </div>
+
                                 <div className="">
+
                                     <button
                                         className={'text-[14px] text-[#FFFFFF] font-[700] border-1 border-[#FFFFFF] p-[4px_16px] rounded-[15px]'}>
                                         151 تیم

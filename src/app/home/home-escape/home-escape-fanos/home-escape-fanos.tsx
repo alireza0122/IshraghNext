@@ -98,8 +98,8 @@ const Fanos: DataTypeFanos[] = [
 function HomeEscapeFanos() {
     return (
         <div className={'bg-[#fafafa] lg:py-4   '}>
-            <div className="xl:flex  xl:justify-center grid grid-cols-12    h-100 items-center">
-                <div className="col-span-12 lg:col-span-4">
+            <div className="  grid grid-cols-12    h-100 items-center  ">
+                <div className="col-span-12 lg:col-span-4  ">
                     <div className="flex flex-col   items-center justify-between gap-2 ">
                         <div className="">
                             <Image width={150} height={150} className=" w-[90px] rounded-[15px] object-cover"
